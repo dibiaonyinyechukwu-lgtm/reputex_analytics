@@ -2,6 +2,8 @@ import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 import re
+import numpy as np
+
 
 clients_urls = {
     'flutterwave': 'https://www.trustpilot.com/review/flutterwave.com',
